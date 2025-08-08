@@ -1,8 +1,8 @@
-# 🚀 VectorShift Pipeline Builder
+# VectorShift Pipeline Builder
 
 A powerful visual pipeline builder application for creating data processing workflows with drag-and-drop functionality.
 
-## ✨ Features
+## Features
 
 - **Visual Pipeline Creation**: Drag and drop nodes to build complex workflows
 - **9 Node Types**: Input, LLM, Output, Text, Filter, Transform, Conditional, Delay, API
@@ -11,7 +11,7 @@ A powerful visual pipeline builder application for creating data processing work
 - **Modern UI**: Dark theme with glassmorphism effects
 - **Real-time Processing**: Live pipeline analysis and validation
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend**:
 - React 18 with Create React App
@@ -24,7 +24,7 @@ A powerful visual pipeline builder application for creating data processing work
 - Pydantic for data validation
 - CORS enabled for frontend integration
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 16+ and npm
@@ -56,7 +56,7 @@ python -m uvicorn main:app --reload
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:8000
 
-## 🎯 How to Use
+## How to Use
 
 1. **Build Pipeline**: Drag nodes from the left sidebar to the canvas
 2. **Connect Nodes**: Click and drag between node handles to create connections
@@ -64,7 +64,7 @@ python -m uvicorn main:app --reload
 4. **Test Variables**: Use `{{variable}}` syntax in Text nodes to create dynamic inputs
 5. **Validate**: Click "Submit Pipeline" to check for cycles and get analysis
 
-## 📊 Pipeline Analysis
+## Pipeline Analysis
 
 The system provides:
 - **Node Count**: Total number of nodes in the pipeline
@@ -72,7 +72,7 @@ The system provides:
 - **DAG Validation**: Checks if the pipeline forms a valid Directed Acyclic Graph
 - **Cycle Detection**: Identifies any circular dependencies
 
-## 🏗️ Architecture
+## Architecture
 
 ### Node Abstraction
 All nodes inherit from a base `BaseNode` component for consistency and maintainability.
@@ -83,7 +83,7 @@ Uses Zustand for efficient state management with ReactFlow integration.
 ### Backend Validation
 FastAPI backend with sophisticated cycle detection algorithm using DFS traversal.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -91,11 +91,11 @@ FastAPI backend with sophisticated cycle detection algorithm using DFS traversal
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
-## 👨‍💻 Developer
+## Developer
 
 **Anchal Jethliya**
 - GitHub: [@anchaljethliya](https://github.com/anchaljethliya)
@@ -103,4 +103,4 @@ This project is licensed under the MIT License.
 
 ---
 
-⭐ Star this repository if you find it helpful!
+Star this repository if you find it helpful!
